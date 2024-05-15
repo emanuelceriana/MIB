@@ -1,0 +1,19 @@
+{
+  "name": "message-in-a-bottle",
+  "version": "1.0.0",
+  "description": "A social experiment",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "npm i && node server.js"
+  },
+  "dependencies": {
+    "fastify": "^4.21.0",
+    "@fastify/websocket": "10.0.1",
+    "@fastify/static": "^6.10.2"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "license": "MIT"
+}
